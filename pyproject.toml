@@ -1,0 +1,14 @@
+[project]
+name = "interrupt-26-deepagents-101"
+version = "0.1.0"
+description = "Deep Agents 101 workshop — journal agent notebook."
+requires-python = ">=3.12"
+dependencies = [
+    "deepagents",
+    "langchain-openai",
+    "langgraph",
+    "jupyter",
+]
+
+[tool.uv]
+package = false
