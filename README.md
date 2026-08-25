@@ -1,6 +1,4 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MY-GITHUB-USERNAME/MY-REPO-NAME)
-
-<!-- Edit the badge URL above: replace MY-GITHUB-USERNAME/MY-REPO-NAME with the actual owner/repo. -->
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-samples/interrupt-26-deepagents-101)
 
 # Deep Agents 101
 
