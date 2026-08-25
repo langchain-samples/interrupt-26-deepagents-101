@@ -17,6 +17,8 @@ Instructor's demo notebook walks through building a journal agent with the `deep
 
 Click **Open in GitHub Codespaces** above and wait for the Codespace to build. Dependencies install automatically via [uv](https://docs.astral.sh/uv/); open `deep_agents_101_journal_agent.ipynb` and start running cells.
 
+Once you've followed along, open `deep_agents_101_template.ipynb` and try customizing each step yourself: a different persona, a different tool, your own use case.
+
 The devcontainer uses Python 3.12, runs `uv sync` on first launch, and configures VS Code to use the `.venv` interpreter.
 
 ## Workshop outline
@@ -27,4 +29,4 @@ The devcontainer uses Python 3.12, runs `uv sync` on first launch, and configure
 3. **Custom tool**: write a `@tool` function and hand it to the agent.
 4. **Optional, human-in-the-loop**: gate a tool call with `interrupt_on` so a human can approve, edit, or reject it before it runs.
 
-Not covered today, but in the full LangChain Academy Deep Agents course: subagent delegation, backends (filesystem/store/composite), skills, memory across sessions, sandboxes, and deployment.
+Not covered in this workshop, but in the full LangChain Academy Deep Agents course: subagent delegation, backends (filesystem/store/composite), skills, memory across sessions, sandboxes, and deployment.
