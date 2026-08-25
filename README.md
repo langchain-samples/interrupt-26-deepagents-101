@@ -4,11 +4,11 @@
 
 # Deep Agents 101
 
-Workshop notebook for building a journal agent with the `deepagents` harness.
+Instructor's demo notebook walks through building a journal agent with the `deepagents` harness.
 
 ## What's in this repo
 
-- `deep_agents_101_journal_agent.ipynb`: the main workshop notebook. Builds one journal agent, one step at a time.
+- `deep_agents_101_journal_agent.ipynb`: the instructor's demo notebook. Builds one journal agent, one step at a time.
 - `deep_agents_101_template.ipynb`: a blank version of the same steps, with no persona or use case baked in. Use it as a starting point for your own agent.
 - `images/`: screenshots and diagrams referenced in the notebooks.
 - `pyproject.toml`, `uv.lock`: dependency manifest for `uv`.
