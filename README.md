@@ -8,7 +8,6 @@ Instructor's demo notebook walks through building a journal agent with the `deep
 
 - `deep_agents_101_journal_agent.ipynb`: the instructor's demo notebook. Builds one journal agent, one step at a time.
 - `deep_agents_101_template.ipynb`: a blank version of the same steps, with no persona or use case baked in. Use it as a starting point for your own agent.
-- `images/`: screenshots and diagrams referenced in the notebooks.
 - `pyproject.toml`, `uv.lock`: dependency manifest for `uv`.
 
 ## Getting Started
@@ -22,9 +21,9 @@ The devcontainer uses Python 3.12, runs `uv sync` on first launch, and configure
 ## Workshop outline
 
 0. **Setup**: connect a model.
-1. **Invoke the agent**: call `create_deep_agent` and send it a message.
+1. **The harness**: see what a deep agent can already do (read/write files, plan) before any custom code.
 2. **System prompt**: give the agent a persona with `system_prompt`.
-3. **Custom tool**: write a `@tool` function and hand it to the agent.
-4. **Optional, human-in-the-loop**: gate a tool call with `interrupt_on` so a human can approve, edit, or reject it before it runs.
+3. **Custom tool**: pick from a list of `@tool` functions (or write your own) and hand it to the agent.
+4. **Human-in-the-loop**: gate a tool call with `interrupt_on` so a human can approve, edit, or reject it before it runs.
 
 Not covered in this workshop, but in the full LangChain Academy Deep Agents course: subagent delegation, backends (filesystem/store/composite), skills, memory across sessions, sandboxes, and deployment.
