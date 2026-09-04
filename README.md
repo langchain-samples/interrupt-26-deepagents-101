@@ -23,7 +23,8 @@ The devcontainer uses Python 3.12, runs `uv sync` on first launch, and configure
 0. **Setup**: connect a model.
 1. **The harness**: see what a deep agent can already do (read/write files, plan) before any custom code.
 2. **System prompt**: give the agent a persona with `system_prompt`.
-3. **Custom tool**: pick from a list of `@tool` functions (or write your own) and hand it to the agent.
-4. **Human-in-the-loop**: gate a tool call with `interrupt_on` so a human can approve, edit, or reject it before it runs.
+3. **Custom tool**: write a `@tool` function and hand it to the agent.
+4. **Short-term memory**: persist conversation state across turns with a `checkpointer`.
+5. **Human-in-the-loop**: gate a tool call with `interrupt_on` so a human can approve, edit, or reject it before it runs.
 
 Not covered in this workshop, but in the full LangChain Academy Deep Agents course: subagent delegation, backends (filesystem/store/composite), skills, memory across sessions, sandboxes, and deployment.
